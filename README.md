@@ -7,7 +7,7 @@
   	Rename image with the name of the receiver Bucket before Uploading image  
     (ex: rename butterfly.webp to MYBUCKET3!butterfly.webp will go to MYBUCKET3 after being processed DONT FORGET THE "!" SEPARATOR or modify code to choose another one )  
     Upload MYBUCKET3!butterfly.webp to the TO_PROCESS Bucket.  
-    LAMBDA detect a new object is created in TO_PROCESS Bucket and execute the lambda_function.py.
+    LAMBDA detect a new object is created in TO_PROCESS Bucket and execute the lambda_function.py.  
     After a few seconds check MYBUCKET3 Bucket.  
     You will see 2 resized files images/butterfly.webp and thumbnails/thumbnail_butterfly.webp.  
     MYBUCKET3!butterfly.webp is deleted from TO_PROCESS Bucket after being processed.  
