@@ -1,6 +1,6 @@
 # AWS LAMBDA images resizer
   Create a TO_PROCESS S3 Bucket that will receive images to be processed.  
-  Create multiples Buckets that will receive processed images.  
+  Create one or multiples Buckets that will receive processed images.  
   Create the Lambda function with lambda_function.py  
   For automated execute this function, add a createObject trigger from S3 Bucket you just created in Lambda options.  
   Test:  
